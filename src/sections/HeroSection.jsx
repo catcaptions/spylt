@@ -34,11 +34,10 @@ const HeroSection = () => {
                 start: "1% top",
                 end: "bottom top",
                 scrub: true,
-                markers: "true",
             },
         })
             .to(".hero-container",{
-                rotate: 70,
+                rotate: 7,
                 scale: 0.9,
                 yPercent: 30,
                 ease: "power1.inOut",
